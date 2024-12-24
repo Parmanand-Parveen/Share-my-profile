@@ -176,12 +176,44 @@
     font-size: 27px;
   }
   
+  #discord {
+    color: #1771e6;
+    padding: 1.5vw;
+    border: 1px solid #1771e6;
+  }
+
+  #discord:hover {
+    background-color: #1771e6;
+    color: #fff;
+  }
+
+
   #facebook {
     color: #1771e6;
     border: 1px solid #1771e6;
   }
   #facebook:hover {
     background-color: #1771e6;
+    color: #fff;
+  }
+
+ #linkedin {
+    color: #0081c2;
+    padding: 1.5vw;
+    border: 1px solid #0081c2;
+  }
+  #linkedin:hover {
+    background-color: #0081c2;
+    color: #fff;
+  }
+
+#snapchat {
+    color: #f7f400;
+    padding: 1.5vw;
+    border: 1px solid #f7f400;
+  }
+  #snapchat:hover {
+    background-color: #f7f400;
     color: #fff;
   }
   
