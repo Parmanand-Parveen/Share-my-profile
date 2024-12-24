@@ -187,38 +187,19 @@
     color: #fff;
   }
 
-
   #facebook {
     color: #1771e6;
+    padding: 1.5vw;
     border: 1px solid #1771e6;
   }
   #facebook:hover {
     background-color: #1771e6;
     color: #fff;
   }
-
- #linkedin {
-    color: #0081c2;
-    padding: 1.5vw;
-    border: 1px solid #0081c2;
-  }
-  #linkedin:hover {
-    background-color: #0081c2;
-    color: #fff;
-  }
-
-#snapchat {
-    color: #f7f400;
-    padding: 1.5vw;
-    border: 1px solid #f7f400;
-  }
-  #snapchat:hover {
-    background-color: #f7f400;
-    color: #fff;
-  }
   
   #twitter {
     color: #1c99e6;
+    padding: 1.5vw;
     border: 1px solid #1c99e6;
   }
   #twitter:hover {
@@ -228,6 +209,7 @@
   
   #instagram {
     color: #cb2770;
+    padding: 1.5vw;
     border: 1px solid #cb2770;
   }
   #instagram:hover {
@@ -237,6 +219,7 @@
   
   #whatsapp {
     color: #2fe664;
+    padding: 1.5vw;
     border: 1px solid #2fe664;
   }
   #whatsapp:hover {
@@ -244,14 +227,34 @@
     color: #fff;
   }
   
-  #telegram {
+  #linkedin {
     color: #0081c2;
+    padding: 1.5vw;
     border: 1px solid #0081c2;
   }
-  #telegram:hover {
+  #linkedin:hover {
     background-color: #0081c2;
     color: #fff;
   }
+   #snapchat {
+    color: #f7f400;
+    padding: 1.5vw;
+    border: 1px solid #f7f400;
+  }
+  #snapchat:hover {
+    background-color: #f7f400;
+    color: #fff;
+  }
+  #telegram {
+    color: #2598d0;
+    padding: 1.5vw;
+    border: 1px solid #2598d0 ;
+  }
+  #telegram:hover {
+    background-color: #2598d0;
+    color : #fff;
+  }
+  
   
   .active {
     scale: 1;
@@ -271,13 +274,21 @@
     opacity: 1;
     pointer-events: initial;
   }
-  @media (max-width: 850px) {
+  @media (max-width: 700px) {
     .card-wrapper {
       max-width: 250px;
       width: 300px;
     }
+    .icon-container{
+      display: flex;
+      gap: 10px;
+      justify-content:left;
+      flex-wrap: wrap;
+    }
     .bottom-group {
       flex-direction: column;
+      justify-items: center;
+      align-items: center;
     }
     .modal {
       width: 70vw;
